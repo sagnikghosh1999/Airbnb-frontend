@@ -300,13 +300,13 @@ const Room = ({ data }: Props) => {
         <div className="w-5/6 mx-auto border-b border-gray-200 pb-4 lg:pb-6">
           <div className="w-full md:w-2/3 lg:w-1/2 flex flex-col mx-auto lg:mx-0 my-4 lg:my-6 space-y-4 lg:space-y-4 ">
             <p className="text-lg lg:text-xl underline font-medium">{data.location}</p>
-            <div className="tracking-wide lg:text-lg space-y-2 line-clamp-3">
-              <p>{data.placesOfInterest}</p>
+            <div className="tracking-wide lg:text-lg space-y-2 ">
+              <p className="line-clamp-3">{data.placesOfInterest}</p>
               <span className=" text-lg lg:text-xl font-medium underline cursor-pointer">
                 {' '}
                 Getting around
               </span>
-              <p>{data.gettingAround}</p>
+              <p className="line-clamp-3">{data.gettingAround}</p>
             </div>
           </div>
         </div>
