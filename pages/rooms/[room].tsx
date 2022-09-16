@@ -250,7 +250,7 @@ const Room = ({ data }: Props) => {
           </div>
         </div>
         {/* map */}
-        <div className="lg:py-10 p-6 w-full md:w-5/6 mx-auto h-[33rem] lg:h-[50rem]  border-b border-gray-200">
+        <div className="lg:py-10 p-6 w-full  mx-auto h-[33rem] lg:h-[50rem]  border-b border-gray-200">
           <div className="py-5 text-2xl font-medium">Where you’ll be</div>
           <div className="py-3 w-full mx-auto h-[25rem] lg:h-[40rem]">
             <AppMap
