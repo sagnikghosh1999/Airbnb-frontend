@@ -63,7 +63,7 @@ const AppHeader: FC<AppHeaderProps> = ({ exploreNearby, searchPage, query }) => 
         {/* header top */}
         <div
           className={`${
-            searchPage ? 'px-7  max-w-7xl mx-auto' : 'container'
+            searchPage ? 'px-8  ' : 'container'
           } hidden md:grid md:grid-cols-[auto,1fr,auto] xl:grid-cols-[1.5fr,3fr,1.5fr] 2xl:grid-cols-[1fr,3fr,1fr] items-start`}
         >
           {/* left side - logo */}
