@@ -186,6 +186,7 @@ export const getStaticProps = async () => {
       liveAnywhere,
       popularPlaces,
     },
+    revalidate: 60,
   };
 };
 
