@@ -84,7 +84,7 @@ const Room = ({ data }: Props) => {
           <div className="w-1/3  hidden sm:inline-flex">
             <div className="sticky top-4 right-8 w-full mb-10">
               <div className="sticky top-28  flex flex-col p-2 w-full border border-gray-300 rounded-3xl shadow-lg h-auto">
-                <div className="flex justify-between w-3/4 mx-auto py-3 flex-col lg:flex-row space-y-2 items-center">
+                <div className="flex justify-between w-full mx-auto py-3 flex-col lg:flex-row space-y-2 items-center">
                   <p className="mx-auto">
                     ₹<span className="font-medium text-xl mx-auto">{data.price}</span>{' '}
                     night
