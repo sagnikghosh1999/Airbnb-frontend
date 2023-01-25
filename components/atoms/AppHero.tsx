@@ -11,7 +11,7 @@ const AppHero = () => {
         objectFit="cover"
         objectPosition="center bottom"
         placeholder="blur"
-        blurDataURL="/assets/hero.jpg"
+        blurDataURL="/assets/hero-banner.jpg"
         quality={50}
       />
 
