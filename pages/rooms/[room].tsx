@@ -97,7 +97,7 @@ const Room = ({ data }: Props) => {
                     </span>
                   </span>
                 </div>
-                <div className="relative flex justify-between w-5/6 mx-auto mt-3 px-2 py-1  border border-gray-500 rounded-lg flex-col lg:flex-row">
+                <div className="relative flex justify-between w-5/6 mx-auto my-3 px-2 py-1  border border-gray-500 rounded-lg flex-col lg:flex-row ">
                   <>
                     {/* check in */}
                     <AppSearchOptionButton
